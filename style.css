@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center; /*puts all page content at the center */
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;   /*distance from the top and side of the page borders */
+    width: 200vh;   /* this gives it a specific height and width, changes its position from center */
+    
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(35, 35, 148);
+    letter-spacing: 1.5px;
+    margin: 30px 0;
+    margin-top: 35px;
+}
+.main-box{
+    width: 450px;
+    padding: 20px;
+    padding-left: 30px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color: #ffffff;
+
+}
+.enter-list{
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    width: 350px;
+    height: 20px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+.button{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(35, 35, 148);
+    outline: none;
+    font-size: 16px;
+    font-weight: bold;
+    color:#ffffff;
+    cursor: pointer;
+    width: 430px;
+    height: 40px;
+    margin-top: 23px;
+}
+.button:hover{
+    background-color: rgba(35, 35, 148, 0.9);
+    color: #ffffff;
+    font-weight: bold;
+}
+
